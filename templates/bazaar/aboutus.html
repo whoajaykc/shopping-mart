@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CNK</title>
+    
+    <link rel="icon" href="{% static "images/logo.jpg" %}" type="image/x-icon">
+  
+   
+</head>
+<body>
+    {% include "bazaar/loader_whatsapp.html" %}
+    {% include "bazaar/navbar.html" %}
+    <br><br><br><br>
+
+      
+    <center>
+      <h3 style="color: darkolivegreen;">About US</h3>
+      <h4 style="color: #9daf7d;">C. N. Kobal Industries</h4>
+<br>
+
+    <br><br>
+Welcome to CNK Industries, where we specialize in the production and sale of various seeds, 
+with a particular focus on Toor dal, available in many varieties. <br>
+We also offer Moong dal and Gram dal, ensuring a wide selection of high-quality agricultural products.<br>
+We aim to provide comprehensive support and ensure the success of all stakeholders involved.<br><br>
+<b>Thank you for visiting our website. We appreciate your interest and support.</b>
+<br><br><br>
+<div class="container">
+
+  <div class="row">
+    
+    <div class="col-md-4">
+      <img src="{% static 'images/abtus_2.jpg' %}" class="img-fluid" alt="Image 2">
+    </div>
+    <div class="col-md-4">
+      <img src="{% static 'images/abtus_3.jpeg' %}" class="img-fluid" alt="Image 3"><br><br>
+      <img src="{% static 'images/abtus_1.jpeg' %}" class="img-fluid" alt="Image 1">
+    </div>
+    <div class="col-md-4">
+      <img src="{% static 'images/abtus_5.jpeg' %}" class="img-fluid" alt="Image 2">
+    </div>
+  </div>
+</div>
+<br><br><br>
+
+       </center> 
+  {% include "bazaar/footer.html" %}
+</body>
+</html>
